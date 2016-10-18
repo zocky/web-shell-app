@@ -27,7 +27,7 @@ ShellApplication = (function(self,parent){
     return app;
   }
   app.new = function(type,label,handler) {
-    handle('save',{type,label,handler})
+    handle('new',{type,label,handler})
     return app;
   }
   
